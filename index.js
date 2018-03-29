@@ -4,6 +4,6 @@ var port = 3000 || process.env.PORT;
 app.get('/', function(req, res) {
     res.send("Welcome to my homepage");
 });
-app.listen(3000, function() {
+app.listen(port, function() {
     console.log("my webpage is served on port", port);
 });
