@@ -7,7 +7,7 @@ var path = require('path');
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/landing.html'));
 });
-
-app.listen(port, function() {
+/*app.listen(port, function() {
     console.log("my webpage is served on port", port);
-});
+});*/
+app.listen(3000);
